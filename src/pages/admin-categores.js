@@ -104,7 +104,7 @@ export default function AdminCategory() {
                         <tr>
                           <th width="10%">Sr No</th>
                           <th>Name</th>
-                          <th width="10%">Is Live?</th>
+                          <th width="10%">Active</th>
                           <th width="10%">Edit</th>
                           <th width="10%">Delete</th>
                         </tr>

@@ -32,10 +32,7 @@ return ( <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark acco
             <span>Users</span></Link>
     </li>
     
-    <li className="nav-item active">
-        <Link className="nav-link" to="/logout">
-            <span>Logout</span></Link>
-    </li>
+    
  
     <hr className="sidebar-divider d-none d-md-block" />
      

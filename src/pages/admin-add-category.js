@@ -12,22 +12,17 @@ export default function AdminAddCategory() {
     let navigate = useNavigate();
   const saveCategory = function(e) {
     e.preventDefault();
-
     if (!name) {
         showError("Category name is required");
         return;
     }
-
     const payload = { name: name };
-
     axios.post(api + "/category/createCategory", payload)
         .then((response) => {
-            
             if (!response.data.success) {
                 showError(response.data.message);  
                 return;
             }
-
           
             showMessage(response.data.message);
             setTimeout(() => {
